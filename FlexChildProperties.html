@@ -1,0 +1,46 @@
+<html>
+<head>
+      <style>
+	         p{
+			   margin:10px;
+			  }
+	         div{
+			       color:white;
+				   background-color:black;
+				   display:flex;
+				   flex-direction:row;
+			    }
+	         #one
+			 {
+                   order:2;
+				   flex-grow:3;
+				   align-self:center;
+             }	
+
+              #four
+			 {
+                   order:1;
+				   flex-grow:5;
+				   align-self:flex-start;
+             }
+             
+               #five
+			 {
+                   order:3;
+				   flex-grow:6;
+				   align-self:flex-end;
+             }					 
+	  
+	  
+	  </style>
+</head>
+<body>
+      <div> 
+       <p id="one">Using Child Properties 1</p>
+       <p id="two">Using Child Properties 2</p>
+       <p id="three">Using Child Properties 3</p>
+       <p id="four">Using Child Properties 4</p>
+       <p id="five">Using Child Properties 5</p>
+      </div>
+</body>
+</html>

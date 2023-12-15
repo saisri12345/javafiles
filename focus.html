@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+     
+      input[type=text]:focus,input[type=password]:focus
+	  {
+	      background-color:red; 
+          font-family:cursive;		  
+	  }
+	  input[type=submit]:hover
+	  {
+	       border-radius:40px;
+		   border:none;
+		   color:white;
+		   background-color:orange;
+	  }
+	  input[type=reset]:hover
+	  { 
+	       background-color:pink;
+	       border-color:orange;
+	  }
+	  img
+	  {
+	      opacity:0.5    /* opacity is used to give transparency to images*/
+	  }                     /* opacity range=0-1 */
+      img:hover
+	  {
+	              opacity:1;
+	  }
+	  
+</style>
+</head>
+<body>
+<form>
+Firstname:
+<input type="text" class="abc"><br><br>
+Lastname:
+<input type="text" class="abc"><br><br>
+Email:
+<input type="email" class="abc"><br><br>
+Password:
+<input type="password" class="abc"><br><br>
+Confirm Password:
+<input type="password" class="abc"><br><br>
+Choose your Gender:
+<input type="radio" name="gender">
+male
+<input type="radio" name="gender">
+female<br><br>
+<img src="background image.jpg" width=200px height=200px><br><br>
+<input type="reset"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
